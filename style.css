@@ -1,16 +1,11 @@
-* {
-    margin: 0;
-    padding: 0;
-    /*border: 1px solid blueviolet;*/
-}
 
 body {
-    width: 1280px;
+    width: 1080px;
     margin: 0 auto;
 }
 
 .jumbotron {
-    background-color: pink;
+    background-color: darkblue;
     height: 400px;
 }
 
@@ -37,12 +32,12 @@ h2 {
 .wrap {
     /*float: left;*/
     width: 100%;
-    height: 400px;
-    background-color: hotpink;
+    height: 450px;
+    background-color: white;
 }
 
 .wrap h1 {
-    color: white;
+    color: darkblue;
     font-family: 'Oxygen', sans-serif;
     text-align: center;
     text-transform: uppercase;
@@ -58,20 +53,29 @@ h2 {
 .ptxt {
     font-family: 'Raleway', sans-serif;
     text-align: justify;
-    padding: 50px;
-    color: white;
+    padding: 10px 50px 10px 50px;
+    color: darkblue;
 }
 
 .content {
     width: 100%;
     height: 400px;
-    background-color: yellow;
+    background-color: darkred;
 }
 .content > p {
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
     float: left;
     width: 50%;
+    padding: 20px;
+    color: white;
 }
 .content > img {
     width: 350px;
     height: 350px;
+}
+@media (max-width: 720px){
+    body {
+        background-color: red;
+    }
 }
