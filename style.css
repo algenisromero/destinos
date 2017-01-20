@@ -71,8 +71,12 @@ h2 {
     color: white;
 }
 .content > img {
-    width: 350px;
-    height: 350px;
+    border: 5px solid darkblue;
+    border-radius: 5px;
+    width: 180px;
+    height: 250px;
+    float: right;
+    margin: 90px;
 }
 @media (max-width: 720px){
     body {
